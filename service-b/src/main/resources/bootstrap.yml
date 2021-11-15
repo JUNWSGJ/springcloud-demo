@@ -1,0 +1,14 @@
+server:
+  port: 8082
+
+spring:
+  application:
+    name: service-b
+  cloud:
+    nacos:
+      discovery:
+        namespace: springcloud-demo
+        server-addr: localhost:8848
+logging:
+  level:
+    ROOT: debug
